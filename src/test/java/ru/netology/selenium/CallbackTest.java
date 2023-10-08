@@ -16,7 +16,7 @@ public class CallbackTest {
 
     // @BeforeAll
     // public static void setUpAll() {
-    // WebDriverManager.chromedriver().setup();
+    //  WebDriverManager.chromedriver().setup();
     // System.setProperty("webdriver.chrome.driver", "./driver/win/chromedriver.exe");
 
     @BeforeEach
@@ -32,7 +32,7 @@ public class CallbackTest {
     @AfterEach
     void tearDown() {
         driver.quit();
-        //driver = null;
+      //  driver = null;
     }
 
     @Test
